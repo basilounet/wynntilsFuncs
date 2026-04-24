@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "description": [
+            {"color":"#a71aca","text":"for Wynntils 1.21.11"},
+            {"text":"\n"},
+            {"color":"gray","text":"v0.1"},
+            {"text":" "},
+            {"color":"dark_gray","text":"Apr. 24, 2026"}
+        ],
+        "max_format": [84, 0],
+        "min_format": [46, 0],
+        "pack_format": 75,
+        "supported_formats": {"max_inclusive": 84,"min_inclusive": 46}
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "providers": [
+    {
+      "id": "space",
+      "type": "reference"
+    },
+    {
+      "advances": {
+      },
+      "type": "space"
+    },
+    {
+      "chars": [
+        "0123456789",
+        "ABCDEFGHIJ",
+        "KLMNOPQRST",
+        "UVWXYZabcd",
+        "efghijklmn",
+        "opqrstuvwx",
+        "yz/%|.:-\n "
+      ],
+      "file": "tpack:font/base/text.png",
+      "height": 20,
+      "type": "bitmap"
+    }
+  ]
+}
