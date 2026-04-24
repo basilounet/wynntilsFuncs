@@ -1,0 +1,8 @@
+{concat_st(
+    styled_text(to_background_text(
+        "Resistance"; from_hex("#d02442"); rainbow_shader(); "PILL"; "RIBBON"));
+    styled_text(" - ");
+    styled_text(to_background_text(
+        string(int(val(status_effect_duration("Resistance")))); from_hex("#ffffff"); from_hex("#d02442"); "RIBBON"; "PILL"));
+    styled_text(" s")
+)}

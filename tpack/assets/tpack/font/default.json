@@ -6,10 +6,12 @@
     },
     {
       "advances": {
+        " " : 4
       },
       "type": "space"
     },
     {
+      "ascent": 0,
       "chars": [
         "0123456789",
         "ABCDEFGHIJ",
@@ -17,10 +19,10 @@
         "UVWXYZabcd",
         "efghijklmn",
         "opqrstuvwx",
-        "yz/%|.:-\n "
+        "yz/%|.:-  "
       ],
       "file": "tpack:font/base/text.png",
-      "height": 20,
+      "height": 8,
       "type": "bitmap"
     }
   ]

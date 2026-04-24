@@ -1,0 +1,4 @@
+capped(val(status_effect_duration("Strength")); 30)
+
+hue_shift(from_hex("#e1e7e8");
+    sub(div(val(status_effect_duration("Strength")); 12); 1.0))

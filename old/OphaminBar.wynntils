@@ -1,0 +1,65 @@
+{concat_st(
+    if(eq(ophanim_orb(0); -1); 
+        styled_text("");
+        with_color(with_font(styled_text(from_codepoint(57351)); "common");
+            if_color(eq(ophanim_orb(0); 0); from_hex("#444444");
+            if_color(eq(ophanim_orb(0); 1); from_hex("#aa1010");
+            if_color(eq(ophanim_orb(0); 2); from_hex("#ddcc22");
+                from_hex("#1bbbcc")
+            ))))
+    );
+    if(eq(ophanim_orb(1); -1); 
+    styled_text("");
+    with_color(with_font(styled_text(from_codepoint(57351)); "common");
+        if_color(eq(ophanim_orb(1); 0); from_hex("#444444");
+        if_color(eq(ophanim_orb(1); 1); from_hex("#aa1010");
+        if_color(eq(ophanim_orb(1); 2); from_hex("#ddcc22");
+            from_hex("#1bbbcc")
+        ))))
+    );
+    if(eq(ophanim_orb(2); -1); 
+    styled_text("");
+    with_color(with_font(styled_text(from_codepoint(57351)); "common");
+        if_color(eq(ophanim_orb(2); 0); from_hex("#444444");
+        if_color(eq(ophanim_orb(2); 1); from_hex("#aa1010");
+        if_color(eq(ophanim_orb(2); 2); from_hex("#ddcc22");
+            from_hex("#1bbbcc")
+        ))))
+    );
+    if(eq(ophanim_orb(3); -1); 
+    styled_text("");
+    with_color(with_font(styled_text(from_codepoint(57351)); "common");
+        if_color(eq(ophanim_orb(3); 0); from_hex("#444444");
+        if_color(eq(ophanim_orb(3); 1); from_hex("#aa1010");
+        if_color(eq(ophanim_orb(3); 2); from_hex("#ddcc22");
+            from_hex("#1bbbcc")
+        ))))
+    );
+    if(eq(ophanim_orb(4); -1); 
+    styled_text("");
+    with_color(with_font(styled_text(from_codepoint(57351)); "common");
+        if_color(eq(ophanim_orb(4); 0); from_hex("#444444");
+        if_color(eq(ophanim_orb(4); 1); from_hex("#aa1010");
+        if_color(eq(ophanim_orb(4); 2); from_hex("#ddcc22");
+            from_hex("#1bbbcc")
+        ))))
+    );
+    if(eq(ophanim_orb(5); -1); 
+    styled_text("");
+    with_color(with_font(styled_text(from_codepoint(57351)); "common");
+        if_color(eq(ophanim_orb(5); 0); from_hex("#444444");
+        if_color(eq(ophanim_orb(5); 1); from_hex("#aa1010");
+        if_color(eq(ophanim_orb(5); 2); from_hex("#ddcc22");
+            from_hex("#1bbbcc")
+        ))))
+    );
+    if(eq(ophanim_orb(6); -1); 
+    styled_text("");
+    with_color(with_font(styled_text(from_codepoint(57351)); "common");
+        if_color(eq(ophanim_orb(6); 0); from_hex("#444444");
+        if_color(eq(ophanim_orb(6); 1); from_hex("#aa1010");
+        if_color(eq(ophanim_orb(6); 2); from_hex("#ddcc22");
+            from_hex("#1bbbcc")
+        ))))
+    )
+)}

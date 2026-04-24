@@ -1,0 +1,8 @@
+{with_font(styled_text(from_codepoint(1)); "hud/gameplay/default/bottom_middle")}
+
+{with_atlas_sprite_font(styled_text("A"); "items"; "item/w-5208695461195403837")}
+{with_atlas_sprite_font(styled_text("A"); "items"; "wynn/weapon/anim/air_swirl")}
+{with_atlas_sprite_font(styled_text("A"); "items"; "item/w3593586899219252462")}
+{with_atlas_sprite_font(styled_text("A"); "items"; "skins/character/theorick_snowflake")}
+{with_atlas_sprite_font(styled_text("A"); "items"; "skins/air_swirl2")}
+{with_atlas_sprite_font(styled_text("A"); "items"; "item/w495213944627143")}

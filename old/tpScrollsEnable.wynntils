@@ -1,0 +1,9 @@
+and(
+    not(has_no_gui);
+    neq(tp_scroll_charges(); -1);
+    or(
+        neq(tp_scroll_charges(); 3);
+        eq_str(held_item_type(); "TeleportScrollItem");
+        key_pressed(258)
+    )
+)

@@ -1,0 +1,16 @@
+{concat_st(
+    styled_text(to_background_text(
+        "SCROLL CHARGES"; from_hex("#ffffff"); from_hex("#000099"); "RIBBON"; "RIBBON"
+    ));
+    styled_text("\n");
+    styled_text(string(tp_scroll_charges()));
+    styled_text(" / 3");
+    if(neq(tp_scroll_charges(); 3);
+        concat_st(
+            styled_text("\n(");
+            styled_text(format_duration(tp_scroll_timer()));
+            styled_text(")")
+        );
+        styled_text("")
+    )
+)}

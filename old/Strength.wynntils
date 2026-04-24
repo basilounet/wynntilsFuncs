@@ -1,0 +1,19 @@
+{concat_st(
+    styled_text(to_background_text(
+        "Strength";
+        if_color(contains_effect("Strength"); from_hex("#000000"); from_hex("#999999"));
+        if_color(contains_effect("Strength"); rainbow_shader; from_hex("#555555"));
+        "RIBBON"; "RIBBON"));
+    styled_text("\n");
+    with_color(with_font(styled_text(from_codepoint(57362)); "common"); 
+        if_color(contains_effect("Strength"); rainbow_shader; from_hex("#555555")));
+    styled_text("\n");
+    styled_text(if(contains_effect("Strength");
+        to_background_text(concat(
+                string(int(val(status_effect_modifier("Strength"))));
+                "%  ";
+                string(int(val(status_effect_duration("Strength")))); "s");
+            rainbow_shader; from_hex("#472a2a"); "RIBBON"; "RIBBON");
+        " ")
+    )
+)}
