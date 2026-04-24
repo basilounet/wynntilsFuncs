@@ -1,0 +1,577 @@
+{
+  "providers": [
+    {
+      "id": "space",
+      "type": "reference"
+    },
+    {
+      "advances": {
+        "\u000D": 0,
+        "\u000A": 0,
+
+        "\u0201": 15,
+        "\u0202": 18,
+        "\u0203": -201,
+        "\u0204": 2,
+        "\u0205": 1,
+        "\u0206": 59,
+        "\u0207": -125,
+        "\u0208": -9,
+        "\u0209": -13,
+        "\u020a": 3,
+        "\u020b": 3,
+        "\u020c": -9,
+        "\u020d": 13,
+        "\u020e": -9,
+        "\u020f": -12,
+        "\u0210": -14,
+        "\u0211": 3,
+        "\u0212": 1,
+        "\u0213": -2,
+        "\u0214": -1,
+        "\u0215": -1,
+        "\u0216": -14,
+        "\u0217": -25,
+        "\u0218": 25,
+        "\u0219": -22,
+        "\u021a": 19,
+        "\u021b": -18,
+        "\u021c": -17,
+        "\u021d": -16,
+        "\u021e": -15,
+        "\u021f": -14,
+        "\u0220": -13,
+        "\u0221": -12,
+        "\u0222": 1,
+        "\u0223": 2,
+        "\u0224": 3,
+        "\u0225": 4,
+        "\u0226": 5,
+        "\u0227": 6,
+        "\u0228": 7,
+        "\u0229": -68,
+        "\u022a": 11,
+        "\u022b": -37,
+        "\u022c": 37,
+        "\u022d": 0,
+        "\u022e": -1,
+        "\u022f": -1,
+        "\u0230": -2,
+        "\u0231": -2,
+        "\u0232": -3,
+        "\u0233": -3,
+        "\u0234": -4,
+        "\u0235": -4,
+        "\u0236": -5,
+        "\u0237": -5,
+        "\u0238": -6,
+        "\u0239": -6,
+        "\u023a": -7,
+        "\u023b": -7,
+        "\u023c": -8,
+        "\u023d": -8,
+        "\u023e": -9,
+        "\u023f": -9,
+        "\u0240": -10,
+        "\u0241": -10,
+        "\u0242": -11,
+        "\u0243": -11,
+        "\u0244": -12,
+        "\u0245": -12,
+        "\u0246": -13,
+        "\u0247": -13,
+        "\u0248": -14,
+        "\u0249": -14,
+        "\u024a": -15,
+        "\u024b": -15,
+        "\u024c": -16,
+        "\u024d": -16,
+        "\u024e": -17,
+        "\u024f": -17,
+        "\u0250": -18,
+        "\u0251": -18,
+        "\u0252": -19,
+        "\u0253": -19,
+        "\u0254": -20,
+        "\u0255": -20,
+        "\u0256": -21,
+        "\u0257": -21,
+        "\u0258": -22,
+        "\u0259": -22,
+        "\u025a": -23,
+        "\u025b": -23,
+        "\u025c": -24,
+        "\u025d": -24,
+        "\u025e": -25,
+        "\u025f": -25,
+        "\u0260": -26,
+        "\u0261": -26,
+        "\u0262": -27,
+        "\u0263": -27,
+        "\u0264": -28,
+        "\u0265": -28,
+        "\u0266": -29,
+        "\u0267": -29,
+        "\u0268": -30,
+        "\u0269": -30,
+        "\u026a": -31,
+        "\u026b": -31,
+        "\u026c": -32,
+        "\u026d": -32,
+        "\u026e": -33,
+        "\u026f": -33,
+        "\u0270": -34,
+        "\u0271": -34,
+        "\u0272": -35,
+        "\u0273": -35,
+        "\u0274": 0,
+        "\u0275": 0,
+        "\u0276": -1,
+        "\u0277": -1,
+        "\u0278": -2,
+        "\u0279": -2,
+        "\u027a": -3,
+        "\u027b": -3,
+        "\u027c": -4,
+        "\u027d": -4,
+        "\u027e": -5,
+        "\u027f": -5,
+        "\u0280": -6,
+        "\u0281": -6,
+        "\u0282": -7,
+        "\u0283": -7,
+        "\u0284": -8,
+        "\u0285": -8,
+        "\u0286": -9,
+        "\u0287": -9,
+        "\u0288": -10,
+        "\u0289": -10,
+        "\u028a": -11,
+        "\u028b": -11,
+        "\u028c": -12,
+        "\u028d": -12,
+        "\u028e": -13,
+        "\u028f": -13,
+        "\u0290": -14,
+        "\u0291": -14,
+        "\u0292": -15,
+        "\u0293": -15,
+        "\u0294": -16,
+        "\u0295": -16,
+        "\u0296": -17,
+        "\u0297": -17,
+        "\u0298": -18,
+        "\u0299": -18,
+        "\u029a": -19,
+        "\u029b": -19,
+        "\u029c": -20,
+        "\u029d": -20,
+        "\u029e": -21,
+        "\u029f": -21,
+        "\u02a0": -22,
+        "\u02a1": -22,
+        "\u02a2": -23,
+        "\u02a3": -23,
+        "\u02a4": -24,
+        "\u02a5": -24,
+        "\u02a6": -25,
+        "\u02a7": -25,
+        "\u02a8": -26,
+        "\u02a9": -26,
+        "\u02aa": -27,
+        "\u02ab": -27,
+        "\u02ac": -28,
+        "\u02ad": -28,
+        "\u02ae": -29,
+        "\u02af": -29,
+        "\u02b0": -30,
+        "\u02b1": -30,
+        "\u02b2": -31,
+        "\u02b3": -31,
+        "\u02b4": -32,
+        "\u02b5": -32,
+        "\u02b6": -33,
+        "\u02b7": -33,
+        "\u02b8": -34,
+        "\u02b9": -34,
+        "\u02ba": -35,
+        "\u02bb": -11,
+        "\u02bc": -16,
+        "\u02bd": 7,
+        "\u02be": 49,
+        "\u02bf": 0,
+        "\u02c0": -1
+      },
+      "type": "space"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02c1"
+      ],
+      "file": "wynnilla:font/base/bar.png",
+      "height": 20,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02c2"
+      ],
+      "file": "wynnilla:font/base/bar-locked.png",
+      "height": 20,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02c3"
+      ],
+      "file": "wynnilla:font/mage/lightbender/ophanim-bar-bg.png",
+      "height": 20,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02c4"
+      ],
+      "file": "wynnilla:font/mage/arcanist/mana-bank-bar-bg.png",
+      "height": 20,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -23,
+      "chars": [
+        "\u02c5"
+      ],
+      "file": "wynnilla:font/base/center.png",
+      "height": 27,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -23,
+      "chars": [
+        "\u02c6"
+      ],
+      "file": "wynnilla:font/base/center-locked.png",
+      "height": 27,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -27,
+      "chars": [
+        "\u02c7\u02c8\u02c9\u02ca\u02cb\u02cc\u02cd"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/riftwalker-fill.png",
+      "height": 19,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -23,
+      "chars": [
+        "\u02ce\u02cf\u02d0\u02d1\u02d2\u02d3\u02d4\u02d5\u02d6\u02d7\u02d8\u02d9\u02da\u02db\u02dc\u02dd\u02de\u02df\u02e0\u02e1"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/time-dilation-surround.png",
+      "height": 27,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02e2"
+      ],
+      "file": "wynnilla:font/base/widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02e3"
+      ],
+      "file": "wynnilla:font/base/widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -45,
+      "chars": [
+        "\u02e4"
+      ],
+      "file": "wynnilla:font/base/widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -9,
+      "chars": [
+        "\u02e5"
+      ],
+      "file": "wynnilla:font/base/widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02e6"
+      ],
+      "file": "wynnilla:font/base/widget-locked.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02e7"
+      ],
+      "file": "wynnilla:font/base/widget-locked.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -45,
+      "chars": [
+        "\u02e8"
+      ],
+      "file": "wynnilla:font/base/widget-locked.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -9,
+      "chars": [
+        "\u02e9"
+      ],
+      "file": "wynnilla:font/base/widget-locked.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02ea"
+      ],
+      "file": "wynnilla:font/base/widget-inactive.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02eb"
+      ],
+      "file": "wynnilla:font/base/widget-inactive.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -45,
+      "chars": [
+        "\u02ec"
+      ],
+      "file": "wynnilla:font/base/widget-inactive.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -9,
+      "chars": [
+        "\u02ed"
+      ],
+      "file": "wynnilla:font/base/widget-inactive.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -14,
+      "chars": [
+        "\u02ee\u02ef"
+      ],
+      "file": "wynnilla:font/base/widget-active.png",
+      "height": 15,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -29,
+      "chars": [
+        "\u02f0\u02f1"
+      ],
+      "file": "wynnilla:font/base/widget-active.png",
+      "height": 15,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -44,
+      "chars": [
+        "\u02f2\u02f3"
+      ],
+      "file": "wynnilla:font/base/widget-active.png",
+      "height": 15,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -8,
+      "chars": [
+        "\u02f4\u02f5"
+      ],
+      "file": "wynnilla:font/base/widget-active.png",
+      "height": 15,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02f6"
+      ],
+      "file": "wynnilla:font/mage/generic/burning-sigil-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02f7"
+      ],
+      "file": "wynnilla:font/mage/generic/purification-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02f8"
+      ],
+      "file": "wynnilla:font/mage/lightbender/fortitude-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02f9"
+      ],
+      "file": "wynnilla:font/mage/lightbender/freezing-sigil-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02fa"
+      ],
+      "file": "wynnilla:font/mage/lightbender/sunflare-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02fb"
+      ],
+      "file": "wynnilla:font/mage/arcanist/arcane-speed-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02fc"
+      ],
+      "file": "wynnilla:font/mage/arcanist/judrajim-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u02fd"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/devitalize-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u02fe"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/dimensional-tear-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -45,
+      "chars": [
+        "\u02ff"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/displacement-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -45,
+      "chars": [
+        "\u0300"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/paradox-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u0301"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/rift-rupture-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -9,
+      "chars": [
+        "\u0302"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/riftbound-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -30,
+      "chars": [
+        "\u0303"
+      ],
+      "file": "wynnilla:font/mage/riftwalker/time-vortex-widget.png",
+      "height": 13,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -41,
+      "chars": [
+        "\u0304\u0305\u0306\u0307\u0308\u0309\u030a\u030b\u030c"
+      ],
+      "file": "wynnilla:font/mage/arcanist/mana-bank-bar.png",
+      "height": 8,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -41,
+      "chars": [
+        "\u030d\u030e\u030f\u0310"
+      ],
+      "file": "wynnilla:font/mage/lightbender/ophanim-bar.png",
+      "height": 6,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -45,
+      "chars": [
+        "\u0311\u0312"
+      ],
+      "file": "wynnilla:font/base/indicator.png",
+      "height": 7,
+      "type": "bitmap"
+    }
+  ]
+}

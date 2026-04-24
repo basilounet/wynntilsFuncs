@@ -1,0 +1,14 @@
+{
+  "providers": [
+    {
+      "id": "space",
+      "type": "reference"
+    },
+    {
+      "advances": {
+
+      },
+      "type": "space"
+    }
+  ]
+}

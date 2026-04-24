@@ -1,0 +1,17 @@
+{
+  "providers": [
+    {
+      "id": "space",
+      "type": "reference"
+    },
+    {
+      "ascent": -27,
+      "chars": [
+        "\u2694\u2695"
+      ],
+      "file": "wynnilla:font/base/debug.png",
+      "height": 19,
+      "type": "bitmap"
+    }
+  ]
+}

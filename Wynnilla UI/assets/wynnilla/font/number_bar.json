@@ -1,0 +1,30 @@
+{
+  "providers": [
+    {
+      "id": "space",
+      "type": "reference"
+    },
+    {
+      "advances": {
+        "\u1000": -1,
+        " ": 4
+      },
+      "type": "space"
+    },
+    {
+      "ascent": -32,
+      "chars": [
+        "0123456789",
+        "ABCDEFGHIJ",
+        "KLMNOPQRST",
+        "UVWXYZabcd",
+        "efghijklmn",
+        "opqrstuvwx",
+        "yz/%\u0000\u0000\u0000\u0000\u0000\u0000"
+      ],
+      "file": "wynnilla:font/base/bar-text.png",
+      "height": 8,
+      "type": "bitmap"
+    }
+  ]
+}

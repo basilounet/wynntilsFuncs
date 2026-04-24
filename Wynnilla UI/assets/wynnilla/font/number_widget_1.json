@@ -1,0 +1,23 @@
+{
+  "providers": [
+    {
+      "id": "space",
+      "type": "reference"
+    },
+    {
+      "advances": {
+        "\u1000": -1
+      },
+      "type": "space"
+    },
+    {
+      "ascent": -48,
+      "chars": [
+        "0123456789"
+      ],
+      "file": "wynnilla:font/base/widget-text.png",
+      "height": 8,
+      "type": "bitmap"
+    }
+  ]
+}

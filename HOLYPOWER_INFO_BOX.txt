@@ -1,0 +1,26 @@
+{if(or(has_no_gui; not(eq_str(class(true; false); "WARRIOR"))); "";
+	with_resource_font(styled_text(concat("";
+	if(lt(current(capped_holy_power); 5); ""; 
+		if(lt(current(capped_holy_power); 10); ""; ""));"";
+	if(lt(current(capped_holy_power); 15); ""; 
+		if(lt(current(capped_holy_power); 20); ""; ""));"";
+	if(lt(current(capped_holy_power); 25); "h"; 
+		if(lt(current(capped_holy_power); 30); "i"; "g"));"";
+	if(lt(current(capped_holy_power); 35); ""; 
+		if(lt(current(capped_holy_power); 40); ""; ""));"";
+	if(lt(current(capped_holy_power); 45); ""; 
+		if(lt(current(capped_holy_power); 50); ""; ""));"";
+	if(lt(current(capped_holy_power); 55); "";
+		if(lt(current(capped_holy_power); 60); ""; ""));"";
+	if(lt(current(capped_holy_power); 65); "";
+		if(lt(current(capped_holy_power); 70); ""; ""));"";
+	if(lt(current(capped_holy_power); 75); "";
+		if(lt(current(capped_holy_power); 80); ""; ""));"";
+	if(lt(current(capped_holy_power); 85); "";
+		if(lt(current(capped_holy_power); 90); ""; ""));"";
+	if(lt(current(capped_holy_power); 95); "";
+		if(lt(current(capped_holy_power); 100); ""; ""));"";
+	if(lt(current(capped_holy_power); 10); "";
+		if(lt(current(capped_holy_power); 100); ""; ""));
+	regex_replace(str(current(capped_holy_power)); "(?<=.)(?!$)"; "");"/";"100"));
+"wynnilla:hud/gameplay/default/bottom_middle"))}

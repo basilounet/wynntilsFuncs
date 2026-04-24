@@ -1,0 +1,378 @@
+{
+  with_font(
+    concat_st(
+        $BAR_BG_OPHANIM$;
+      $PAN_TO_CENTER$;
+        $CENTER_INACTIVE$;
+      $PAN_TO_CENTER_SURROUND$;
+        if(gt(value(status_effect_modifier("Time|Dilated")); 195);
+          $CENTER_SURROUND_TIME_DILATION@0$;
+          if(gt(value(status_effect_modifier("Time|Dilated")); 185);
+            $CENTER_SURROUND_TIME_DILATION@1$;
+            if(gt(value(status_effect_modifier("Time|Dilated")); 175);
+              $CENTER_SURROUND_TIME_DILATION@2$;
+              if(gt(value(status_effect_modifier("Time|Dilated")); 165);
+                $CENTER_SURROUND_TIME_DILATION@3$;
+                if(gt(value(status_effect_modifier("Time|Dilated")); 155);
+                  $CENTER_SURROUND_TIME_DILATION@4$;
+                  if(gt(value(status_effect_modifier("Time|Dilated")); 145);
+                    $CENTER_SURROUND_TIME_DILATION@5$;
+                    if(gt(value(status_effect_modifier("Time|Dilated")); 135);
+                      $CENTER_SURROUND_TIME_DILATION@6$;
+                      if(gt(value(status_effect_modifier("Time|Dilated")); 125);
+                        $CENTER_SURROUND_TIME_DILATION@7$;
+                        if(gt(value(status_effect_modifier("Time|Dilated")); 115);
+                          $CENTER_SURROUND_TIME_DILATION@8$;
+                          if(gt(value(status_effect_modifier("Time|Dilated")); 105);
+                            $CENTER_SURROUND_TIME_DILATION@9$;
+                            if(gt(value(status_effect_modifier("Time|Dilated")); 95);
+                              $CENTER_SURROUND_TIME_DILATION@10$;
+                              if(gt(value(status_effect_modifier("Time|Dilated")); 85);
+                                $CENTER_SURROUND_TIME_DILATION@11$;
+                                if(gt(value(status_effect_modifier("Time|Dilated")); 75);
+                                  $CENTER_SURROUND_TIME_DILATION@12$;
+                                  if(gt(value(status_effect_modifier("Time|Dilated")); 65);
+                                    $CENTER_SURROUND_TIME_DILATION@13$;
+                                    if(gt(value(status_effect_modifier("Time|Dilated")); 55);
+                                      $CENTER_SURROUND_TIME_DILATION@14$;
+                                      if(gt(value(status_effect_modifier("Time|Dilated")); 45);
+                                        $CENTER_SURROUND_TIME_DILATION@15$;
+                                        if(gt(value(status_effect_modifier("Time|Dilated")); 35);
+                                          $CENTER_SURROUND_TIME_DILATION@16$;
+                                          if(gt(value(status_effect_modifier("Time|Dilated")); 25);
+                                            $CENTER_SURROUND_TIME_DILATION@17$;
+                                            if(gt(value(status_effect_modifier("Time|Dilated")); 15);
+                                              $CENTER_SURROUND_TIME_DILATION@18$;
+                                              if(gt(value(status_effect_modifier("Time|Dilated")); 5);
+                                                $CENTER_SURROUND_TIME_DILATION@19$;
+                                                $PAN_TO_CENTER_SURROUND_SKIP$
+                                              )
+                                            )
+                                          )
+                                        )
+                                      )
+                                    )
+                                  )
+                                )
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        );
+      $PAN_TO_CENTER_FILL$;
+        if(gt(current_distortion; 300);
+          $CENTER_FILL_DISTORTION@6$;
+          if(gt(current_distortion; 250);
+            $CENTER_FILL_DISTORTION@5$;
+            if(gt(current_distortion; 200);
+              $CENTER_FILL_DISTORTION@4$;
+              if(gt(current_distortion; 150);
+                $CENTER_FILL_DISTORTION@3$;
+                if(gt(current_distortion; 100);
+                  $CENTER_FILL_DISTORTION@2$;
+                  if(gt(current_distortion; 50);
+                    $CENTER_FILL_DISTORTION@1$;
+                    if(gt(current_distortion; 0);
+                      $CENTER_FILL_DISTORTION@0$;
+                      $PAN_TO_CENTER_FILL_SKIP$
+                    )
+                  )
+                )
+              )
+            )
+          )
+        );
+        if(gt(current_distortion; 0);
+          concat_st(
+            if(gt(current_distortion; 99);
+              $PAN_TO_CENTER_TEXT_3$;
+              if(gt(current_distortion; 9);
+                $PAN_TO_CENTER_TEXT_2$;
+                $PAN_TO_CENTER_TEXT_1$
+              )
+            );
+            with_font(
+              styled_text(
+                regex_replace(
+                  str(current_distortion);
+                  "(?<=.)(?!$)"; from_codepoint(4096)
+                )
+              );
+              "wynnilla:number_center"
+            );
+            if(gt(current_distortion; 99);
+              $PAN_TO_CENTER_TEXT_3_END$;
+              if(gt(current_distortion; 9);
+                $PAN_TO_CENTER_TEXT_2_END$;
+                $PAN_TO_CENTER_TEXT_1_END$
+              )
+            )
+          );
+          $ZWS$
+        );
+      $PAN_TO_RIGHT$;
+        $BAR_BG_MANA_BANK$;
+      $PAN_TO_START$;
+      $PAN_WIDGET_LEFT_START$;
+        $WIDGET_PURIFICATION$;
+      $PAN_WIDGET_NEXT$;
+        $WIDGET_FORTITUDE$;
+      $PAN_WIDGET_NEXT$;
+        $WIDGET_FREEZING_SIGIL$;
+      $PAN_WIDGET_NEXT$;
+        $WIDGET_SUNFLARE$;
+      $PAN_WIDGET_NEXT$;
+      $PAN_WIDGET_SKIP$;
+      $PAN_WIDGET_RIGHT_START$;
+      $PAN_WIDGET_SKIP$;
+      $PAN_WIDGET_NEXT$;
+      $PAN_WIDGET_SKIP$;
+      $PAN_WIDGET_NEXT$;
+        $WIDGET_JUDRAJIM$;
+      $PAN_WIDGET_NEXT$;
+        $WIDGET_ARCANE_SPEED$;
+      $PAN_WIDGET_NEXT$;
+        $WIDGET_BURNING_SIGIL$;
+      $PAN_WIDGET_CENTER_START$;
+        if(status_effect_active("Dimensional|Tear");
+          concat_st(
+            $WIDGET_INACTIVE_2$;
+            if(lt(add(value(status_effect_duration("Dimensional|Tear")); 1); 10);
+              $PAN_WIDGET_TEXT_1$;
+              if(lt(add(value(status_effect_duration("Dimensional|Tear")); 1); 100);
+                $PAN_WIDGET_TEXT_2$;
+                $PAN_WIDGET_TEXT_3$
+              )
+            );
+            with_font(
+              styled_text(
+                regex_replace(
+                  str(int(add(value(status_effect_duration("Dimensional|Tear")); 1)));
+                  "(?<=.)(?!$)"; from_codepoint(4096)
+                )
+              );
+              "wynnilla:number_widget_2"
+            );
+            if(lt(add(value(status_effect_duration("Dimensional|Tear")); 1); 10);
+              $PAN_WIDGET_TEXT_1_END$;
+              if(lt(add(value(status_effect_duration("Dimensional|Tear")); 1); 100);
+                $PAN_WIDGET_TEXT_2_END$;
+                $PAN_WIDGET_TEXT_3_END$
+              )
+            )
+          );
+          $WIDGET_DIMENSIONAL_TEAR$
+        );
+      $PAN_WIDGET_CENTER_LEFT$;
+        if(status_effect_active("Devitalize");
+          concat_st(
+            $WIDGET_INACTIVE$;
+            if(lt(add(value(status_effect_duration("Devitalize")); 1); 10);
+              $PAN_WIDGET_TEXT_1$;
+              if(lt(add(value(status_effect_duration("Devitalize")); 1); 100);
+                $PAN_WIDGET_TEXT_2$;
+                $PAN_WIDGET_TEXT_3$
+              )
+            );
+            with_font(
+              styled_text(
+                regex_replace(
+                  str(int(add(value(status_effect_duration("Devitalize")); 1)));
+                  "(?<=.)(?!$)"; from_codepoint(4096)
+                )
+              );
+              "wynnilla:number_widget_3"
+            );
+            if(lt(add(value(status_effect_duration("Devitalize")); 1); 10);
+              $PAN_WIDGET_TEXT_1_END$;
+              if(lt(add(value(status_effect_duration("Devitalize")); 1); 100);
+                $PAN_WIDGET_TEXT_2_END$;
+                $PAN_WIDGET_TEXT_3_END$
+              )
+            )
+          );
+          $WIDGET_DEVITALIZE$
+        );
+      $PAN_WIDGET_BACK$;
+        if(status_effect_active("Displacement");
+          concat_st(
+            $WIDGET_INACTIVE_1$;
+            if(lt(add(value(status_effect_duration("Displacement")); 1); 10);
+              $PAN_WIDGET_TEXT_1$;
+              if(lt(add(value(status_effect_duration("Displacement")); 1); 100);
+                $PAN_WIDGET_TEXT_2$;
+                $PAN_WIDGET_TEXT_3$
+              )
+            );
+            with_font(
+              styled_text(
+                regex_replace(
+                  str(int(add(value(status_effect_duration("Displacement")); 1)));
+                  "(?<=.)(?!$)"; from_codepoint(4096)
+                )
+              );
+              "wynnilla:number_widget_1"
+            );
+            if(lt(add(value(status_effect_duration("Displacement")); 1); 10);
+              $PAN_WIDGET_TEXT_1_END$;
+              if(lt(add(value(status_effect_duration("Displacement")); 1); 100);
+                $PAN_WIDGET_TEXT_2_END$;
+                $PAN_WIDGET_TEXT_3_END$
+              )
+            )
+          );
+          $WIDGET_DISPLACEMENT$
+        );
+      $PAN_WIDGET_CENTER_TOP$;
+        if(gt(value(status_effect_duration("Riftbound")); 12);
+          concat_st(
+            $PAN_WIDGET_FIRE_START$;
+            if(eq(mod(ticks; 2); 0);
+              $WIDGET_FIRE_C@0$;
+              $WIDGET_FIRE_C@1$
+            );
+            $PAN_WIDGET_FIRE_RESET$;
+            $WIDGET_RIFTBOUND$
+          );
+          if(status_effect_active("Riftbound");
+            concat_st(
+              $WIDGET_INACTIVE_C$;
+              if(lt(add(value(status_effect_duration("Riftbound")); 1); 10);
+                $PAN_WIDGET_TEXT_1$;
+                if(lt(add(value(status_effect_duration("Riftbound")); 1); 100);
+                  $PAN_WIDGET_TEXT_2$;
+                  $PAN_WIDGET_TEXT_3$
+                )
+              );
+              with_font(
+                styled_text(
+                  regex_replace(
+                    str(int(add(value(status_effect_duration("Riftbound")); 1)));
+                    "(?<=.)(?!$)"; from_codepoint(4096)
+                  )
+                );
+                "wynnilla:number_widget_4"
+              );
+              if(lt(add(value(status_effect_duration("Riftbound")); 1); 10);
+                $PAN_WIDGET_TEXT_1_END$;
+                if(lt(add(value(status_effect_duration("Riftbound")); 1); 100);
+                  $PAN_WIDGET_TEXT_2_END$;
+                  $PAN_WIDGET_TEXT_3_END$
+                )
+              )
+            );
+            $WIDGET_RIFTBOUND$
+          )
+        );
+      $PAN_WIDGET_CENTER_RIGHT$;
+        if(status_effect_active("Rift|Rupture");
+          concat_st(
+            $WIDGET_INACTIVE$;
+            if(lt(add(value(status_effect_duration("Rift|Rupture")); 1); 10);
+              $PAN_WIDGET_TEXT_1$;
+              if(lt(add(value(status_effect_duration("Rift|Rupture")); 1); 100);
+                $PAN_WIDGET_TEXT_2$;
+                $PAN_WIDGET_TEXT_3$
+              )
+            );
+            with_font(
+              styled_text(
+                regex_replace(
+                  str(int(add(value(status_effect_duration("Rift|Rupture")); 1)));
+                  "(?<=.)(?!$)"; from_codepoint(4096)
+                )
+              );
+              "wynnilla:number_widget_3"
+            );
+            if(lt(add(value(status_effect_duration("Rift|Rupture")); 1); 10);
+              $PAN_WIDGET_TEXT_1_END$;
+              if(lt(add(value(status_effect_duration("Rift|Rupture")); 1); 100);
+                $PAN_WIDGET_TEXT_2_END$;
+                $PAN_WIDGET_TEXT_3_END$
+              )
+            )
+          );
+          $WIDGET_RIFT_RUPTURE$
+        );
+      $PAN_WIDGET_BACK$;
+        if(status_effect_active("Paradox");
+          concat_st(
+            $PAN_WIDGET_FIRE_START$;
+            if(eq(mod(ticks; 2); 0);
+              $WIDGET_FIRE_1@0$;
+              $WIDGET_FIRE_1@1$
+            );
+            $PAN_WIDGET_FIRE_RESET$;
+            $WIDGET_PARADOX$
+          );
+          if(status_effect_active("Rewind");
+            concat_st(
+              $WIDGET_INACTIVE_1$;
+              if(lt(add(value(status_effect_duration("Rewind")); 1); 10);
+                $PAN_WIDGET_TEXT_1$;
+                if(lt(add(value(status_effect_duration("Rewind")); 1); 100);
+                  $PAN_WIDGET_TEXT_2$;
+                  $PAN_WIDGET_TEXT_3$
+                )
+              );
+              with_font(
+                styled_text(
+                  regex_replace(
+                    str(int(add(value(status_effect_duration("Rewind")); 1)));
+                    "(?<=.)(?!$)"; from_codepoint(4096)
+                  )
+                );
+                "wynnilla:number_widget_1"
+              );
+              if(lt(add(value(status_effect_duration("Rewind")); 1); 10);
+                $PAN_WIDGET_TEXT_1_END$;
+                if(lt(add(value(status_effect_duration("Rewind")); 1); 100);
+                  $PAN_WIDGET_TEXT_2_END$;
+                  $PAN_WIDGET_TEXT_3_END$
+                )
+              )
+            );
+            $WIDGET_PARADOX$
+          )
+        );
+      $PAN_WIDGET_CENTER_END$;
+        if(status_effect_active("Time|Vortex");
+          concat_st(
+            $WIDGET_INACTIVE_2$;
+            if(lt(add(value(status_effect_duration("Time|Vortex")); 1); 10);
+              $PAN_WIDGET_TEXT_1$;
+              if(lt(add(value(status_effect_duration("Time|Vortex")); 1); 100);
+                $PAN_WIDGET_TEXT_2$;
+                $PAN_WIDGET_TEXT_3$
+              )
+            );
+            with_font(
+              styled_text(
+                regex_replace(
+                  str(int(add(value(status_effect_duration("Time|Vortex")); 1)));
+                  "(?<=.)(?!$)"; from_codepoint(4096)
+                )
+              );
+              "wynnilla:number_widget_2"
+            );
+            if(lt(add(value(status_effect_duration("Time|Vortex")); 1); 10);
+              $PAN_WIDGET_TEXT_1_END$;
+              if(lt(add(value(status_effect_duration("Time|Vortex")); 1); 100);
+                $PAN_WIDGET_TEXT_2_END$;
+                $PAN_WIDGET_TEXT_3_END$
+              )
+            )
+          );
+          $WIDGET_TIME_VORTEX$
+        )
+    );
+"wynnilla:hotbar"
+  )
+}

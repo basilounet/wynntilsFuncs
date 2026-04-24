@@ -1,0 +1,372 @@
+{
+  "spaces": {
+    "PAN_TO_CENTER": 15,
+    "PAN_TO_RIGHT": 18,
+    "PAN_TO_START": -201,
+    "PAN_WIDGET_LEFT_START": 2,
+    "PAN_WIDGET_NEXT": 1,
+    "PAN_WIDGET_RIGHT_START": 59,
+    "PAN_WIDGET_CENTER_START": -125,
+    "PAN_WIDGET_CENTER_LEFT": -9,
+    "PAN_WIDGET_BACK": -13,
+    "PAN_WIDGET_CENTER_TOP": 3,
+    "PAN_WIDGET_CENTER_RIGHT": 3,
+    "PAN_WIDGET_CENTER_END": -9,
+    "PAN_WIDGET_SKIP": 13,
+    "PAN_WIDGET_TEXT_1": -9,
+    "PAN_WIDGET_TEXT_2": -12,
+    "PAN_WIDGET_TEXT_3": -14,
+    "PAN_WIDGET_TEXT_1_END": 3,
+    "PAN_WIDGET_TEXT_2_END": 1,
+    "PAN_WIDGET_TEXT_3_END": -2,
+    "PAN_TEXT_TERMINATOR": -1,
+    "PAN_WIDGET_FIRE_START": -1,
+    "PAN_WIDGET_FIRE_RESET": -14,
+    "PAN_TO_CENTER_SURROUND": -25,
+    "PAN_TO_CENTER_SURROUND_SKIP": 25,
+    "PAN_TO_CENTER_FILL": -22,
+    "PAN_TO_CENTER_FILL_SKIP": 19,
+    "PAN_TO_CENTER_TEXT_1": -13,
+    "PAN_TO_CENTER_TEXT_2": -15,
+    "PAN_TO_CENTER_TEXT_3": -18,
+    "PAN_TO_CENTER_TEXT_1_END": 6,
+    "PAN_TO_CENTER_TEXT_2_END": 3,
+    "PAN_TO_CENTER_TEXT_3_END": 1,
+    "ZWS": 0
+  },
+  "textures": [
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/base/bar.png",
+      "height": 20,
+      "variants": [
+        {
+          "name": "BAR_GENERIC",
+          "ascent": -30
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/lightbender/ophanim-bar-bg.png",
+      "height": 20,
+      "variants": [
+        {
+          "name": "BAR_BG_OPHANIM",
+          "ascent": -30
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/arcanist/mana-bank-bar-bg-alt.png",
+      "height": 20,
+      "variants": [
+        {
+          "name": "BAR_BG_MANA_BANK",
+          "ascent": -30
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/base/center.png",
+      "height": 27,
+      "variants": [
+        {
+          "name": "CENTER_GENERIC",
+          "ascent": -23
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/base/center-locked.png",
+      "height": 27,
+      "variants": [
+        {
+          "name": "CENTER_INACTIVE",
+          "ascent": -23
+        }
+      ]
+    },
+    {
+      "chars": [7, 1],
+      "file": "wynnilla:font/mage/riftwalker/riftwalker-fill.png",
+      "height": 19,
+      "variants": [
+        {
+          "name": "CENTER_FILL_DISTORTION",
+          "ascent": -27
+        }
+      ]
+    },
+    {
+      "chars": [20, 1],
+      "file": "wynnilla:font/mage/riftwalker/time-dilation-surround.png",
+      "height": 27,
+      "variants": [
+        {
+          "name": "CENTER_SURROUND_TIME_DILATION",
+          "ascent": -23
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/base/widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_GENERIC",
+          "ascent": -15
+        },
+        {
+          "name": "WIDGET_CENTER_2",
+          "ascent": -30
+        },
+        {
+          "name": "WIDGET_CENTER_1",
+          "ascent": -45
+        },
+        {
+          "name": "WIDGET_CENTER_C",
+          "ascent": -9
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/base/widget-inactive.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_INACTIVE",
+          "ascent": -15
+        },
+        {
+          "name": "WIDGET_INACTIVE_2",
+          "ascent": -30
+        },
+        {
+          "name": "WIDGET_INACTIVE_1",
+          "ascent": -45
+        },
+        {
+          "name": "WIDGET_INACTIVE_C",
+          "ascent": -9
+        }
+      ]
+    },
+    {
+      "chars": [2, 1],
+      "file": "wynnilla:font/base/widget-active.png",
+      "height": 15,
+      "variants": [
+        {
+          "name": "WIDGET_FIRE",
+          "ascent": -14
+        },
+        {
+          "name": "WIDGET_FIRE_2",
+          "ascent": -29
+        },
+        {
+          "name": "WIDGET_FIRE_1",
+          "ascent": -44
+        },
+        {
+          "name": "WIDGET_FIRE_C",
+          "ascent": -8
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/generic/burning-sigil-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_BURNING_SIGIL",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/generic/purification-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_PURIFICATION",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/lightbender/fortitude-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_FORTITUDE",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/lightbender/freezing-sigil-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_FREEZING_SIGIL",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/lightbender/sunflare-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_SUNFLARE",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/arcanist/arcane-speed-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_ARCANE_SPEED",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/arcanist/judrajim-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_JUDRAJIM",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/riftwalker/devitalize-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_DEVITALIZE",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/riftwalker/dimensional-tear-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_DIMENSIONAL_TEAR",
+          "ascent": -30
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/riftwalker/displacement-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_DISPLACEMENT",
+          "ascent": -45
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/riftwalker/paradox-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_PARADOX",
+          "ascent": -45
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/riftwalker/rift-rupture-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_RIFT_RUPTURE",
+          "ascent": -15
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/riftwalker/riftbound-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_RIFTBOUND",
+          "ascent": -9
+        }
+      ]
+    },
+    {
+      "chars": [1, 1],
+      "file": "wynnilla:font/mage/riftwalker/time-vortex-widget.png",
+      "height": 13,
+      "variants": [
+        {
+          "name": "WIDGET_TIME_VORTEX",
+          "ascent": -30
+        }
+      ]
+    },
+    {
+      "chars": [9, 1],
+      "file": "wynnilla:font/mage/arcanist/mana-bank-bar.png",
+      "height": 8,
+      "variants": [
+        {
+          "name": "BAR_MANA_BANK",
+          "ascent": -44
+        }
+      ]
+    },
+    {
+      "chars": [4, 1],
+      "file": "wynnilla:font/mage/lightbender/ophanim-bar.png",
+      "height": 6,
+      "variants": [
+        {
+          "name": "BAR_OPHANIM",
+          "ascent": -44
+        }
+      ]
+    },
+    {
+      "chars": [2, 1],
+      "file": "wynnilla:font/base/indicator.png",
+      "height": 7,
+      "variants": [
+        {
+          "name": "BAR_INDICATOR",
+          "ascent": -45
+        }
+      ]
+    }
+  ]
+}
