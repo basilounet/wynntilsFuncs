@@ -1,1 +1,6 @@
-{with_font(styled_text("0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvb\nnm /%:-"); "tpack:default")}
+{with_font(st(concat(
+  from_codepoint(add(8000; if(lt(div(mod(ticks; mul(16; 4)); 4); 8);
+    div(mod(ticks; mul(8; 4)); 4);
+    sub(8; div(mod(ticks; mul(8; 4)); 4))
+  )))
+)); "tpack:default")}
