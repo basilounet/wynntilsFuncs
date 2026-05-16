@@ -1,6 +1,7 @@
-{with_font(st(concat(
-  from_codepoint(add(8000; if(lt(div(mod(ticks; mul(16; 4)); 4); 8);
-    div(mod(ticks; mul(8; 4)); 4);
-    sub(8; div(mod(ticks; mul(8; 4)); 4))
-  )))
-)); "tpack:default")}
+{concat_st(
+  with_color(with_font(st(concat(
+    from_codepoint(add(7051;
+      clamp(int(div(sub(adavg; 100000); 20000)); 0; 24)
+    ))
+  )); "tpack:default"); wynncraft_shader(if(gte(adavg; 580000); "warp"; "none")))
+)}

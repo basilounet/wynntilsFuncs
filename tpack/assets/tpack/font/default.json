@@ -91,16 +91,6 @@
       },
       "type": "space"
     },
-
-    {"ascent" : 8, "chars" : ["\u1f40"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 7, "chars" : ["\u1f41"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 6, "chars" : ["\u1f42"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 5, "chars" : ["\u1f43"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 4, "chars" : ["\u1f44"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 3, "chars" : ["\u1f45"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 2, "chars" : ["\u1f46"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 1, "chars" : ["\u1f47"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
-    {"ascent" : 0, "chars" : ["\u1f48"], "file" : "tpack:font/test.png", "height" : 8, "type" : "bitmap"},
     {
       "ascent": 8,
       "chars": [
@@ -114,6 +104,19 @@
       ],
       "file": "tpack:font/base/text.png",
       "height": 8,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 0,
+      "chars": [
+        "\u1b8b\u1b8c\u1b8d\u1b8e\u1b8f",
+        "\u1b90\u1b91\u1b92\u1b93\u1b94",
+        "\u1b95\u1b96\u1b97\u1b98\u1b99",
+        "\u1b9a\u1b9b\u1b9c\u1b9d\u1b9e",
+        "\u1b9f\u1ba0\u1ba1\u1ba2\u1ba3"
+      ],
+      "file": "tpack:font/perfection/letters.png",
+      "height": 128,
       "type": "bitmap"
     }
   ]
