@@ -15,3 +15,8 @@
 {with_font(st(concat(
     from_codepoint(add(7055; mul(int(div(mod(ticks; mul(5; 8)); 8)); 5)))
 )); "tpack:default")}
+
+{with_font(
+    with_color(st(from_codepoint(7055)); from_hex("#bbbbbb"));
+    "tpack:default"
+)}+

@@ -1,7 +1,24 @@
-{concat_st(
-  with_color(with_font(st(concat(
-    from_codepoint(add(7051;
-      clamp(int(div(sub(adavg; 100000); 20000)); 0; 24)
-    ))
-  )); "tpack:default"); wynncraft_shader(if(gte(adavg; 580000); "warp"; "none")))
-)}
+{with_font(concat_st(
+  st(from_codepoint(7091));
+  st(repeat(from_codepoint(6970); 5));
+  st(repeat(from_codepoint(6980); 1));
+  with_color(
+    st(from_codepoint(7092));
+    wynncraft_shader("none")
+  );
+  st(repeat(from_codepoint(6990); 11));
+  with_color(
+    st(from_codepoint(add(7051;
+      clamp(int(div(sub(adavg(15); 100000); 20000)); 0; 39)
+    ))); 
+    wynncraft_shader(if(gte(adavg(15); 920000); "warp"; "none"))
+  );
+  st(concat(
+    repeat("\n"; 16);
+    repeat(from_codepoint(7030); 2);
+    format(adavg(15));
+    "\n";
+    repeat(from_codepoint(7030); 2);
+    "avg dps"
+  ))
+); "tpack:default")}

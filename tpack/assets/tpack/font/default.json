@@ -87,7 +87,7 @@
         "\u1b7d" : 37,
         "\u1b7e" : 38,
         "\u1b7f" : 39,
-        "\u1b8a" : 40
+        "\u1b80" : 40
       },
       "type": "space"
     },
@@ -100,23 +100,44 @@
         "UVWXYZabcd",
         "efghijklmn",
         "opqrstuvwx",
-        "yz/%|.:-  "
+        "yz/%|.:-, "
       ],
       "file": "tpack:font/base/text.png",
       "height": 8,
       "type": "bitmap"
     },
     {
-      "ascent": 0,
+      "ascent": -50,
       "chars": [
         "\u1b8b\u1b8c\u1b8d\u1b8e\u1b8f",
         "\u1b90\u1b91\u1b92\u1b93\u1b94",
         "\u1b95\u1b96\u1b97\u1b98\u1b99",
         "\u1b9a\u1b9b\u1b9c\u1b9d\u1b9e",
-        "\u1b9f\u1ba0\u1ba1\u1ba2\u1ba3"
+        "\u1b9f\u1ba0\u1ba1\u1ba2\u1ba3",
+        "\u1ba4\u1ba5\u1ba6\u1ba7\u1ba8",
+        "\u1ba9\u1baa\u1bab\u1bac\u1bad",
+        "\u1bae\u1baf\u1bb0\u1bb1\u1bb2"
       ],
       "file": "tpack:font/perfection/letters.png",
-      "height": 128,
+      "height": 80,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 0,
+      "chars": [
+        "\u1bb3"
+      ],
+      "file": "tpack:font/perfection/background.png",
+      "height": 180,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -40,
+      "chars": [
+        "\u1bb4"
+      ],
+      "file": "tpack:font/perfection/strokes.png",
+      "height": 100,
       "type": "bitmap"
     }
   ]
