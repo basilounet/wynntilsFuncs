@@ -19,4 +19,15 @@
 {with_font(
     with_color(st(from_codepoint(7055)); from_hex("#bbbbbb"));
     "tpack:default"
-)}+
+)}
+
+{
+with_atlas_sprite_font(st("A"); "items"; "skins/resistance/syndra_banner");
+with_atlas_sprite_font(st("A"); "items"; "item/w3240345653366329037");
+with_atlas_sprite_font(st("A"); "items"; "item/w-9167009971840039152");
+with_atlas_sprite_font(st("A"); "items"; "skins/fallen_smoke");
+with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a");
+with_atlas_sprite_font(st("A"); "items"; "skins/character/astal_gauntlet_text");
+}
+
+{repeat_st(with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a"); 3)}

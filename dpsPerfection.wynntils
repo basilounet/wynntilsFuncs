@@ -1,0 +1,74 @@
+{with_font(concat_st(
+  st(concat(
+    from_codepoint(7091);
+    repeat(from_codepoint(6960); 2); from_codepoint(6993)
+  ));
+  with_color(
+    st(from_codepoint(add(7092;
+      clamp(int(div(adavg(15); 80000)); 0; 9)
+    )));
+    wynncraft_shader("gradient")
+  );
+  st(repeat(from_codepoint(6989); 5));
+  with_color(
+    st(from_codepoint(add(7051;
+      clamp(int(div(adavg(15); 20000)); 0; 39)
+    ))); 
+    wynncraft_shader(if(gte(adavg(15); 820000); "warp"; "none"))
+  );
+  st(repeat("\n"; 2));
+  st(repeat(from_codepoint(7032); 4));
+  with_atlas_sprite_font(st("A"); "items"; "skins/resistance/syndra_banner");
+  st("\n");
+
+  st(repeat(from_codepoint(7040); 2));
+  with_atlas_sprite_font(st("A"); "items"; "skins/character/astal_gauntlet_text");
+  st("\n");
+
+  repeat_st(concat_st(
+    st(from_codepoint(7030));
+    with_atlas_sprite_font(st("A"); "items"; "item/w-9167009971840039152")
+  ); 2);
+  st(repeat("\n"; 3));
+  repeat_st(concat_st(
+    st(from_codepoint(7030));
+    with_atlas_sprite_font(st("A"); "items"; "item/w-9167009971840039152")
+  ); 2);
+  st("\n");
+
+  st(from_codepoint(7031));
+  with_color(st(format(adavg(15)));
+    if(gte(adavg(15); 820000); wynncraft_shader("rainbow"); from_hex(
+      if(gte(adavg(15); 500000); "#ea9898";
+      if(gte(adavg(15); 400000); "#c183c4";
+      if(gte(adavg(15); 300000); "#64c3d3";
+      if(gte(adavg(15); 200000); "#ebe967"; "#ebe9e9"
+      ))))))
+  );
+  st("\n");
+  st(from_codepoint(7031));
+  repeat_st(concat_st(
+    with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a");
+    st(from_codepoint(6995))
+    );
+    int(sub(
+      if(lt(adavg(15); 450000); div(adavg(15); 50000); 10); 
+      div(adavg(15); 100000)
+    ))
+  );
+  repeat_st(concat_st(
+    with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_1_a");
+    st(from_codepoint(6995))
+    );
+    int(mul(int(div(clamp(sub(adavg(15); 400000); 0; 1000000); 100000)); 2))
+  );
+  repeat_st(concat_st(
+    with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a");
+    st(from_codepoint(6995))
+    );
+    int(sub(
+      if(lt(adavg(15); 450000); div(adavg(15); 50000); 10); 
+      div(adavg(15); 100000)
+    ))
+  )
+); "tpack:default")}

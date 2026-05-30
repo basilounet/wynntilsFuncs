@@ -8,16 +8,23 @@ wynn/gui/ability_tree/aspect/flame_(blue / yellow / purple / orange / pink) : as
 skins/character/theorick_snowflake : immobile but shiny snowflake
 wynn/weapon/anim/fire_blade_flamelicks : sideway flames
 wynn/jigsaw/bonny/flame : medium flame from below
+
 wynn/spell/meteor_(0 / 1)_a : big orange / purple flame
+
 wynn/weapon/anim/cyan_flame : small cyan flame
 wynn/gui/ability_tree/node/(purple / red)_fragment : fissures
+
 item/w3240345653366329037 : fire && electricity arc (very cool)
+
 item/w-371169100339689475 : green shaman swirls
 item/w-6810549862922636115 : copper sigil / runes / star thingy
+
 skins/fallen_smoke : red smoke / tendrils (very cool)
+
 item/w-6000161232260442053 : star (fast)
 skins/aurora/aurora_effect_(1-4) : ethereql like flame effect, does not occur often
 item/w4003931363284184681 : electrical circle
 item/w-9167009971840039152 : red / black point going in circle leqving a trail (really cool)
 skins/resistance/syndra_banner : waving flag
+
 skins/character/astal_gauntlet_text : sigil appearing and desapearing (very cool)

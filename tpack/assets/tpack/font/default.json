@@ -6,7 +6,7 @@
     },
     {
       "advances": {
-        " " : 8,
+        " " : 4,
         "\u1b30" : -40,
         "\u1b31" : -39,
         "\u1b32" : -38,
@@ -92,7 +92,7 @@
       "type": "space"
     },
     {
-      "ascent": 8,
+      "ascent": 4,
       "chars": [
         "0123456789",
         "ABCDEFGHIJ",
@@ -103,11 +103,11 @@
         "yz/%|.:-, "
       ],
       "file": "tpack:font/base/text.png",
-      "height": 8,
+      "height": 4,
       "type": "bitmap"
     },
     {
-      "ascent": -50,
+      "ascent": -25,
       "chars": [
         "\u1b8b\u1b8c\u1b8d\u1b8e\u1b8f",
         "\u1b90\u1b91\u1b92\u1b93\u1b94",
@@ -119,7 +119,7 @@
         "\u1bae\u1baf\u1bb0\u1bb1\u1bb2"
       ],
       "file": "tpack:font/perfection/letters.png",
-      "height": 80,
+      "height": 40,
       "type": "bitmap"
     },
     {
@@ -128,16 +128,16 @@
         "\u1bb3"
       ],
       "file": "tpack:font/perfection/background.png",
-      "height": 180,
+      "height": 90,
       "type": "bitmap"
     },
     {
-      "ascent": -40,
+      "ascent": -20,
       "chars": [
-        "\u1bb4"
+        "\u1bb4\u1bb5\u1bb6\u1bb7\u1bb8\u1bb9\u1bba\u1bbb\u1bbc\u1bbd"
       ],
       "file": "tpack:font/perfection/strokes.png",
-      "height": 100,
+      "height": 50,
       "type": "bitmap"
     }
   ]
