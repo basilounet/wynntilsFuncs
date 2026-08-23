@@ -37,13 +37,9 @@
   st("\n");
 
   st(from_codepoint(7031));
-  with_color(st(format(adavg(15)));
-    if(gte(adavg(15); 820000); wynncraft_shader("rainbow"); from_hex(
-      if(gte(adavg(15); 500000); "#ea9898";
-      if(gte(adavg(15); 400000); "#c183c4";
-      if(gte(adavg(15); 300000); "#64c3d3";
-      if(gte(adavg(15); 200000); "#ebe967"; "#ebe9e9"
-      ))))))
+  with_color(st(format(adavg(15))); if(gte(adavg(15); 820000); wynncraft_shader("rainbow");
+    from_hex(switch(int(div(adavg(15); 100000)); "#ebe9e9";
+      2; "#ebe967"; 3; "#64c3d3"; 4; "#c183c4"; 5; "#ea9898"; 6; "#ea9898"; 7; "#ea9898"; 8; "#ea9898")))
   );
   st("\n");
   st(from_codepoint(7031));

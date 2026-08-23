@@ -1,0 +1,88 @@
+{with_font(st(concat(
+  "aa";
+  from_codepoint(7055);
+  "aa\n\n\n\n\n\n\n\n\n\n\nbb";
+  from_codepoint(7060);
+  "bb\n\n\n\n\n\n\n\n\n\n\ncc";
+  from_codepoint(7065);
+  "cc\n\n\n\n\n\n\n\n\n\n\ndd";
+  from_codepoint(7070);
+  "dd\n\n\n\n\n\n\n\n\n\n\nee";
+  from_codepoint(7075);
+  "ee"
+)); "tpack:default")}
+
+{with_font(st(concat(
+  from_codepoint(add(7055; mul(int(div(mod(ticks; mul(5; 8)); 8)); 5)))
+)); "tpack:default")}
+
+{with_font(
+  with_color(st(from_codepoint(7055)); from_hex("#bbbbbb"));
+  "tpack:default"
+)}
+
+{
+with_atlas_sprite_font(st("A"); "items"; "skins/resistance/syndra_banner");
+with_atlas_sprite_font(st("A"); "items"; "item/w3240345653366329037");
+with_atlas_sprite_font(st("A"); "items"; "item/w-9167009971840039152");
+with_atlas_sprite_font(st("A"); "items"; "skins/fallen_smoke");
+with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a");
+with_atlas_sprite_font(st("A"); "items"; "skins/character/astal_gauntlet_text");
+}
+
+{repeat_st(with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a"); 3)}
+
+{switch(int(div(mod(ticks; 15); 5)); "a"; 
+  1; "b"; 
+  2; "c"
+)}
+
+{if(gte(recast_ticks; 60);
+    with_font(st(from_codepoint(57428)); "chat/tile");
+        if(gte(int(floor(clamp(recast_count; 0; 8)));1);
+        if(gte(int(floor(clamp(recast_count; 0; 8)));2);
+        if(gte(int(floor(clamp(recast_count; 0; 8)));3);
+        if(gte(int(floor(clamp(recast_count; 0; 8)));4);
+        if(gte(int(floor(clamp(recast_count; 0; 8)));5);
+        if(gte(int(floor(clamp(recast_count; 0; 8)));6);
+        if(gte(int(floor(clamp(recast_count; 0; 8)));7);
+        if(eq(int(floor(clamp(recast_count; 0; 8))); 8);
+        if(gt(int(floor(clamp(recast_count; 0; 9))); 8);
+    with_color(with_font(st(from_codepoint(57379)); "tooltip/identification/meter"); gradient_shader);
+    with_color(with_font(st(from_codepoint(57379)); "tooltip/identification/meter"); from_hex("#9d1d1d")));
+    with_color(with_font(st(from_codepoint(57375)); "tooltip/identification/meter"); from_hex("#d51d1d")));
+    with_color(with_font(st(from_codepoint(57371)); "tooltip/identification/meter"); from_hex("#ff0000")));
+    with_color(with_font(st(from_codepoint(57367)); "tooltip/identification/meter"); from_hex("#b6b61e")));
+    with_color(with_font(st(from_codepoint(57363)); "tooltip/identification/meter"); from_hex("#dddd18")));
+    with_color(with_font(st(from_codepoint(57359)); "tooltip/identification/meter"); from_hex("#ffff00")));
+    with_color(with_font(st(from_codepoint(57355)); "tooltip/identification/meter"); from_hex("#c2a1a1")));
+    with_color(with_font(st(from_codepoint(57351)); "tooltip/identification/meter"); from_hex("#e2c8c8")));
+    with_color(with_font(st(from_codepoint(57347)); "tooltip/identification/meter"); from_hex("#ffffff")))
+)}
+
+{if(gte(recast_ticks; 60); with_font(st(from_codepoint(57428)); "chat/tile");
+  with_color(with_font(st(from_codepoint(
+    switch(int(clamp(recast_count; 0; 9)); 57347;
+    1; 57351;
+    2; 57355;
+    3; 57359;
+    4; 57363;
+    5; 57367;
+    6; 57371;
+    7; 57375;
+    8; 57379;
+    9; 57379
+    )
+  )); "tooltip/identification/meter");
+    switch(int(clamp(recast_count; 0; 9)); from_hex("#ffffff");
+    1; from_hex("#e2c8c8");
+    2; from_hex("#c2a1a1");
+    3; from_hex("#ffff00");
+    4; from_hex("#dddd18");
+    5; from_hex("#b6b61e");
+    6; from_hex("#ff0000");
+    7; from_hex("#d51d1d");
+    8; from_hex("#9d1d1d");
+    9; gradient_shader
+  )
+))}

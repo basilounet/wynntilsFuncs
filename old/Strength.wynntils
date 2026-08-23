@@ -1,7 +1,7 @@
 {concat_st(
     styled_text(to_background_text(
         "Strength";
-        if_color(contains_effect("Strength"); from_hex("#000000"); from_hex("#999999"));
+        if_color(contains_effect("Strength"); from_hex("#910b0b"); from_hex("#999999"));
         if_color(contains_effect("Strength"); rainbow_shader; from_hex("#555555"));
         "RIBBON"; "RIBBON"));
     styled_text("\n");

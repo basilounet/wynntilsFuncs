@@ -1,5 +1,0 @@
-{with_font(st(concat(
-  from_codepoint(add(7051;
-    div(mod(ticks; mul(25; 2)); 2)
-  )))
-); "tpack:default")}
