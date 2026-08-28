@@ -86,3 +86,22 @@ with_atlas_sprite_font(st("A"); "items"; "skins/character/astal_gauntlet_text");
     9; gradient_shader
   )
 ))}
+
+{concat(str(health_pct); 
+    ", "; 
+    str(mod(health_pct; 9.5));
+    ", ";
+    str(ceil(sub(100.0; health_pct)))
+)}
+
+{with_font(st(concat(
+    repeat(from_codepoint(7307); int(div(health_pct; 10)));
+    if(geq(health_pct; 99); ""; from_codepoint(add(7304; mul(div(int(mod(health_pct; 10)); 10); 4))));
+    repeat(from_codepoint(7304); int(div(sub(100.0; health_pct); 10)))
+)); "tpack:default")}
+
+{with_font(st(concat(
+    repeat(concat(from_codepoint(7303); "\n\n\n"); int(div(mana_pct; 10)));
+    if(geq(mana_pct; 100); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
+    repeat(concat(from_codepoint(7300); "\n\n\n"); int(div(sub(100.0; mana_pct); 10)))
+)); "tpack:default")}

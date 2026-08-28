@@ -139,6 +139,20 @@
       "file": "tpack:font/perfection/strokes.png",
       "height": 50,
       "type": "bitmap"
+    },
+    {
+      "ascent": -20,
+      "chars": [
+        "\u1C84\u1C85\u1C86\u1C87",
+        "\u1C88\u1C89\u1C8a\u1C8b",
+        "\u1C8c\u1C8d\u1C8e\u1C8f",
+        "\u1C90\u1C91\u1C92\u1C93",
+        "\u1C94\u1C95\u1C96\u1C97",
+        "\u1C98\u1C99\u1C9a\u1C9b"
+      ],
+      "file": "tpack:font/health_mana/health_mana.png",
+      "height": 50,
+      "type": "bitmap"
     }
   ]
 }
