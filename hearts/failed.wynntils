@@ -1,0 +1,42 @@
+{with_font(st(concat(
+    repeat(concat(from_codepoint(7311); from_codepoint(6990)); 
+        int(div(
+            sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 
+            5))
+    );
+    if(lte(value(status_effect_modifier("Extra Health")); 0); ""; concat(
+        from_codepoint(add(7308; mul(div(mod( 
+            mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100);
+            5); 5); 4)));
+        from_codepoint(6990))
+    );
+    repeat(concat(from_codepoint(7307); from_codepoint(6990)); if(gte(mul(div(health; health_max); 100); 50); 
+        int(sub(10; ceil(div(
+            sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 
+            5))));
+        int(sub(int(div(mul(div(sub(health; value(status_effect_modifier("Extra Health"))); health_max); 100); 5)); 
+            ceil(div(
+                sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 
+            5)))))
+    );
+    if(or(geq(mul(div(health; health_max); 100); 50); and(lt(mul(div(health; health_max); 100); 50); gte(value(status_effect_modifier("Extra Health")); 1))); 
+        ""; 
+        concat(
+            from_codepoint(add(7304; mul(div(mod(mul(div(health; health_max); 100); 5); 5); 4))); 
+            from_codepoint(6990))
+    );
+    repeat(concat(from_codepoint(7304); from_codepoint(6990)); 
+        if(gte(health_pct; 50); 0; int(div(sub(50.0; health_pct); 5))));
+    "\n\n\n\n\n";
+    repeat(concat(from_codepoint(7307); from_codepoint(6990)); 
+        if(lt(mul(div(health; health_max); 100); 50); 0; int(min(int(div(sub(mul(div(health; health_max); 100); 50); 5)); 10))));
+    if(or(lt(mul(div(health; health_max); 100); 50); gte(mul(div(health; health_max); 100); 100)); ""; concat(
+        from_codepoint(add(7304; mul(div(mod(mul(div(health; health_max); 100); 5); 5); 4)));
+        from_codepoint(6990)));
+    repeat(concat(from_codepoint(7304); from_codepoint(6990)); 
+        if(lte(mul(div(health; health_max); 100); 50); 10; int(div(sub(100.0; mul(div(health; health_max); 100)); 5))));
+    "\n\n\n\n\n";
+    repeat(concat(from_codepoint(7303); "\n\n\n"); int(div(mana_pct; 10)));
+    if(geq(mana_pct; 100); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
+    repeat(concat(from_codepoint(7300); "\n\n\n"); int(div(sub(100.0; mana_pct); 10)))
+)); "tpack:default")}
