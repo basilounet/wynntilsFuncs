@@ -127,7 +127,7 @@
       "type": "bitmap"
     },
     {
-      "ascent": -25,
+      "ascent": -23,
       "chars": [
         "\u1b8b\u1b8c\u1b8d\u1b8e\u1b8f",
         "\u1b90\u1b91\u1b92\u1b93\u1b94",
@@ -143,21 +143,24 @@
       "type": "bitmap"
     },
     {
-      "ascent": 0,
+      "ascent": -18,
       "chars": [
-        "\u1bb3"
-      ],
-      "file": "tpack:font/perfection/background.png",
-      "height": 90,
-      "type": "bitmap"
-    },
-    {
-      "ascent": -20,
-      "chars": [
-        "\u1bb4\u1bb5\u1bb6\u1bb7\u1bb8\u1bb9\u1bba\u1bbb\u1bbc\u1bbd"
+        "\u1bb3\u1bb4\u1bb5\u1bb6\u1bb7\u1bb8\u1bb9\u1bba\u1bbb\u1bbc"
       ],
       "file": "tpack:font/perfection/strokes.png",
       "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": 17,
+      "chars": [
+        "\u1bbd\u1bbe\u1bbf\u1bc0\u1bc1\u1bc2\u1bc3\u1bc4\u1bc5\u1bc6\u1bc7\u1bc8\u1bc9",
+        "\u1bca\u1bcb\u1bcc\u1bcd\u1bce\u1bcf\u1bd0\u1bd1\u1bd2\u1bd3\u1bd4\u1bd5\u1bd6",
+        "\u1bd7\u1bd8\u1bd9\u1bda\u1bdb\u1bdc\u1bdd\u1bde\u1bdf\u1be0\u1be1\u1be2\u1be3",
+        "\u1be4\u1be5\u1be6\u1be7\u1be8\u1be9\u1bea\u1beb\u1bec\u1bed\u1bee\u1bef\u1bf0"
+      ],
+      "file": "tpack:font/perfection/backgrounds.png",
+      "height": 125,
       "type": "bitmap"
     },
     {

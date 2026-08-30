@@ -1,11 +1,13 @@
 {with_font(concat_st(
-  st(concat(
-    from_codepoint(7091);
-    repeat(from_codepoint(6960); 2); from_codepoint(6993)
-  ));
+  st(from_codepoint(add(7101;
+    if(lt(mod(ticks; 200); 50); 0; if(lt(mod(ticks; 200); 175);
+      clamp(div(sub(mod(ticks; 200); 50); 2.4); 1; 12);
+      sub(12; clamp(div(sub(mod(ticks; 200); 175); 2.4); 1; 12)))); 
+    mul(13; clamp(int(div(adavg(15); 200000)); 0; 3)))));
+  repeat_st(st(from_codepoint(6950)); 2);
   with_color(
-    st(from_codepoint(add(7092;
-      clamp(int(div(adavg(15); 80000)); 0; 9)
+    st(from_codepoint(add(7091;
+      clamp(int(div(adavg(15); 150000)); 0; 9)
     )));
     wynncraft_shader("gradient")
   );
@@ -17,32 +19,31 @@
     wynncraft_shader(if(gte(adavg(15); 820000); "warp"; "none"))
   );
   st(repeat("\n"; 2));
-  st(repeat(from_codepoint(7032); 4));
+  st(repeat(from_codepoint(7035); 4));
   with_atlas_sprite_font(st("A"); "items"; "skins/resistance/syndra_banner");
   st("\n");
-
-  st(repeat(from_codepoint(7040); 2));
+  
+  st(repeat(from_codepoint(7037); 2));
   with_atlas_sprite_font(st("A"); "items"; "skins/character/astal_gauntlet_text");
   st("\n");
 
   repeat_st(concat_st(
-    st(from_codepoint(7030));
+    st(from_codepoint(7040));
     with_atlas_sprite_font(st("A"); "items"; "item/w-9167009971840039152")
   ); 2);
-  st(repeat("\n"; 3));
+    st(repeat("\n"; 3));
   repeat_st(concat_st(
-    st(from_codepoint(7030));
+    st(from_codepoint(7040));
     with_atlas_sprite_font(st("A"); "items"; "item/w-9167009971840039152")
   ); 2);
   st("\n");
-
-  st(from_codepoint(7031));
+  st(from_codepoint(7044));
   with_color(st(format(adavg(15))); if(gte(adavg(15); 820000); wynncraft_shader("rainbow");
     from_hex(switch(int(div(adavg(15); 100000)); "#ebe9e9";
       2; "#ebe967"; 3; "#64c3d3"; 4; "#c183c4"; 5; "#ea9898"; 6; "#ea9898"; 7; "#ea9898"; 8; "#ea9898")))
   );
   st("\n");
-  st(from_codepoint(7031));
+  st(from_codepoint(7041));
   repeat_st(concat_st(
     with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a");
     st(from_codepoint(6995))
@@ -53,14 +54,14 @@
     ))
   );
   repeat_st(concat_st(
-    with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_1_a");
-    st(from_codepoint(6995))
+      with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_1_a");
+      st(from_codepoint(6995))
     );
     int(mul(int(div(clamp(sub(adavg(15); 400000); 0; 1000000); 100000)); 2))
   );
   repeat_st(concat_st(
-    with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a");
-    st(from_codepoint(6995))
+      with_atlas_sprite_font(st("A"); "items"; "wynn/spell/meteor_0_a");
+      st(from_codepoint(6995))
     );
     int(sub(
       if(lt(adavg(15); 450000); div(adavg(15); 50000); 10); 
