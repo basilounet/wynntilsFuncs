@@ -1,5 +1,5 @@
 {with_font(st(concat(
     repeat(concat(from_codepoint(7303); "\n\n\n"); int(div(mana_pct; 10)));
-    if(geq(mana_pct; 100); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
+    if(eq(mod(mana_pct; 10); 0); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
     repeat(concat(from_codepoint(7300); "\n\n\n"); int(div(sub(100.0; mana_pct); 10)))
 )); "tpack:default")}

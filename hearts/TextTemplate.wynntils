@@ -1,7 +1,7 @@
 {with_font(st(concat(
   repeat(concat(from_codepoint(7307); from_codepoint(6990));
     if(gte(health_pct; 50); 10; int(div(health_pct; 5))));
-  if(geq(health_pct; 50); ""; concat(
+  if(or(geq(health_pct; 50); eq(mod(health_pct; 5); 0)); ""; concat(
     from_codepoint(add(7304; mul(div(mod(health_pct; 5); 5); 4))); 
     from_codepoint(6990)));
   repeat(concat(from_codepoint(7304); from_codepoint(6990)); 
@@ -9,17 +9,18 @@
   if(lte(value(status_effect_modifier("Extra Health")); 0); ""; concat(
     repeat(from_codepoint(6962); 10);
     repeat(concat(from_codepoint(7311); from_codepoint(6990)); 
-      int(div(sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 5)));
-    from_codepoint(add(7308; 
-      mul(div(mod(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 5); 5); 4)));
-    from_codepoint(6990);
+      int(min(10; int(div(sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 5)))));
+    if(gte(sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 50); ""; concat(
+      from_codepoint(add(7308; 
+        mul(div(mod(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 5); 5); 4)));
+    from_codepoint(6990)));
     repeat(from_codepoint(7038); int(sub(10; 
       ceil(div(sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 5)))))
   ));
   "\n\n\n\n\n";
   repeat(concat(from_codepoint(7307); from_codepoint(6990)); 
     if(lt(health_pct; 50); 0; int(min(int(div(sub(health_pct; 50); 5)); 10))));
-  if(or(lt(health_pct; 50); gte(health_pct; 100)); ""; concat(
+  if(or(lt(health_pct; 50); gte(health_pct; 100); eq(mod(health_pct; 5); 0)); ""; concat(
     from_codepoint(add(7304; mul(div(mod(health_pct; 5); 5); 4)));
     from_codepoint(6990)));
   repeat(concat(from_codepoint(7304); from_codepoint(6990)); 
@@ -28,17 +29,20 @@
       lte(sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 50)); ""; concat(
     repeat(from_codepoint(6962); 10);
     repeat(concat(from_codepoint(7311); from_codepoint(6990)); 
-      int(min(int(div(
+      int(int(div(
         sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 150);
-         5)); 10)));
+         10))));
     from_codepoint(add(7308; 
       mul(div(mod(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 5); 5); 4)));
     from_codepoint(6990);
-    repeat(from_codepoint(7038); int(sub(10; 
-      int(min(ceil(div(sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 5)); 10)))))
+    repeat(from_codepoint(7038); int(sub(10;
+      ceil(div(
+        sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 150);
+         10))
+      )))
   ));
   "\n\n\n\n\n";
   repeat(concat(from_codepoint(7303); "\n\n\n"); int(div(mana_pct; 10)));
-  if(geq(mana_pct; 100); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
+  if(eq(mod(mana_pct; 10); 0); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
   repeat(concat(from_codepoint(7300); "\n\n\n"); int(div(sub(100.0; mana_pct); 10)))
 )); "tpack:default")}
