@@ -127,7 +127,7 @@
       "type": "bitmap"
     },
     {
-      "ascent": -23
+      "ascent": -23,  
       "chars": [
         "\u1b8b\u1b8c\u1b8d\u1b8e\u1b8f",
         "\u1b90\u1b91\u1b92\u1b93\u1b94",
@@ -173,8 +173,51 @@
         "\u1C94\u1C95\u1C96\u1C97",
         "\u1C98\u1C99\u1C9a\u1C9b"
       ],
-      "file": "tpack:font/health_mana/health_mana.png",
+      "file": "tpack:font/terraria_health_mana/health_mana.png",
       "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -21,
+      "chars": [
+        "\u1cb6\u1cb7\u1cb8\u1cb9\u1cba\u1cbb\u1cbc\u1cbd\u1cbe\u1cbf\u1cc0\u1cc1\u1cc2\u1cc3\u1cc4\u1cc5\u1cc6",
+        "\u1cc7\u1cc8\u1cc9\u1cca\u1ccb\u1ccc\u1ccd\u1cce\u1ccf\u1cd0\u1cd1\u1cd2\u1cd3\u1cd4\u1cd5\u1cd6\u1cd7",
+        "\u1cd8\u1cd9\u1cda\u1cdb\u1cdc\u1cdd\u1cde\u1cdf\u1ce0\u1ce1\u1ce2\u1ce3\u1ce4\u1ce5\u1ce6\u1ce7\u1ce8"
+      ],
+      "file": "tpack:font/poe_diablo/mana.png",
+      "height": 50,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -20,
+      "chars": [
+        "\u1ce9\u1cea\u1ceb\u1cec\u1ced\u1cee\u1cef\u1cf0\u1cf1\u1cf2\u1cf3\u1cf4\u1cf5\u1cf6\u1cf7\u1cf8\u1cf9",
+        "\u1cfa\u1cfb\u1cfc\u1cfd\u1cfe\u1cff\u1d00\u1d01\u1d02\u1d03\u1d04\u1d05\u1d06\u1d07\u1d08\u1d09\u1d0a",
+        "\u1d0b\u1d0c\u1d0d\u1d0e\u1d0f\u1d10\u1d11\u1d12\u1d13\u1d14\u1d15\u1d16\u1d17\u1d18\u1d19\u1d1a\u1d1b"
+      ],
+      "file": "tpack:font/poe_diablo/life.png",
+      "height": 71,
+      "type": "bitmap"
+    },
+
+    {
+      "ascent": -20,
+      "chars": [
+        "\u1d1c\u1d1d\u1d1e\u1d1f\u1d20\u1d21\u1d22\u1d23\u1d24\u1d25\u1d26\u1d27\u1d28\u1d29\u1d2a\u1d2b\u1d2c",
+        "\u1d2d\u1d2e\u1d2f\u1d30\u1d31\u1d32\u1d33\u1d34\u1d35\u1d36\u1d37\u1d38\u1d39\u1d3a\u1d3b\u1d3c\u1d3d",
+        "\u1d3e\u1d3f\u1d40\u1d41\u1d42\u1d43\u1d44\u1d45\u1d46\u1d47\u1d48\u1d49\u1d4a\u1d4b\u1d4c\u1d4d\u1d4e"
+      ],
+      "file": "tpack:font/poe_diablo/overhealth.png",
+      "height": 71,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -27,
+      "chars": [
+        "\u1d4f\u1d50\u1d51"
+      ],
+      "file": "tpack:font/poe_diablo/backgrounds.png",
+      "height": 120,
       "type": "bitmap"
     }
   ]

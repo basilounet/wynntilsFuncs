@@ -1,0 +1,14 @@
+{with_font(st(concat(
+  from_codepoint(7503);
+  "\n";
+  from_codepoint(6966);
+  from_codepoint(sub(7400; div(mana_pct; 2)));
+  "\n\n\n\n\n";
+  from_codepoint(7011);
+  from_codepoint(sub(7451; clamp(div(health_pct; 2); 0; 50)));
+  from_codepoint(6950);
+  from_codepoint(6979);
+  from_codepoint(sub(7502; clamp(
+    div(sub(mul(div(add(health_max; value(status_effect_modifier("Extra Health"))); health_max); 100); 100); 2); 
+    0; 50)))
+)); "tpack:default")}
