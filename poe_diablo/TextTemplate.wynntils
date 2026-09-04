@@ -2,7 +2,7 @@
   from_codepoint(7503);
   "\n";
   from_codepoint(6966);
-  from_codepoint(sub(7400; div(mana_pct; 2)));
+  from_codepoint(sub(7400; clamp(div(mana_pct; 2); 0; 50)));
   "\n\n\n\n\n";
   from_codepoint(7011);
   from_codepoint(sub(7451; clamp(div(health_pct; 2); 0; 50)));
