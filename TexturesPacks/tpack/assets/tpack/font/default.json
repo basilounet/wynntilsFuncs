@@ -219,6 +219,40 @@
       "file": "tpack:font/poe_diablo/backgrounds.png",
       "height": 120,
       "type": "bitmap"
+    },
+    {
+      "ascent": -20,
+      "chars": [
+        "\u1d65\u1d66",
+        "\u1d67\u1d68"
+      ],
+      "file": "tpack:font/rpg/frames.png",
+      "height": 120,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -16,
+      "chars": [
+        "\u1d69\u1d6a\u1d6b\u1d6c\u1d6d\u1d6e\u1d6f\u1d70\u1d71\u1d72\u1d73\u1d74\u1d75",
+        "\u1d76\u1d77\u1d78\u1d79\u1d7a\u1d7b\u1d7c\u1d7d\u1d7e\u1d7f\u1d80\u1d81\u1d82",
+        "\u1d83\u1d84\u1d85\u1d86\u1d87\u1d88\u1d89\u1d8a\u1d8b\u1d8c\u1d8d\u1d8e\u1d8f",
+        "\u1d90\u1d91\u1d92\u1d93\u1d94\u1d95\u1d96\u1d97\u1d98\u1d99\u1d9a\u1d9b\u1d9c"  
+      ],
+      "file": "tpack:font/rpg/anchors_left_red.png",
+      "height": 125,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u1d9d\u1d9e\u1d9f\u1da0\u1da1\u1da2\u1da3\u1da4\u1da5\u1da6\u1da7\u1da8\u1da9",
+        "\u1daa\u1dab\u1dac\u1dad\u1dae\u1daf\u1db0\u1db1\u1db2\u1db3\u1db4\u1db5\u1db6",
+        "\u1db7\u1db8\u1db9\u1dba\u1dbb\u1dbc\u1dbd\u1dbe\u1dbf\u1dc0\u1dc1\u1dc2\u1dc3",
+        "\u1dc4\u1dc5\u1dc6\u1dc7\u1dc8\u1dc9\u1dca\u1dcb\u1dcc\u1dcd\u1dce\u1dcf\u1dd0"  
+      ],
+      "file": "tpack:font/rpg/anchors_left_ylw.png",
+      "height": 127,
+      "type": "bitmap"
     }
   ]
 }

@@ -42,7 +42,7 @@
       )))
   ));
   "\n\n\n\n\n";
-  repeat(concat(from_codepoint(7303); "\n\n\n"); int(div(mana_pct; 10)));
-  if(eq(mod(mana_pct; 10); 0); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
-  repeat(concat(from_codepoint(7300); "\n\n\n"); int(div(sub(100.0; mana_pct); 10)))
+  repeat(concat(from_codepoint(7303); "\n\n\n"); int(min(10; div(mana_pct; 10))));
+  if(or(gte(mana_pct; 100); eq(mod(mana_pct; 10); 0)); ""; concat(from_codepoint(add(7300; mul(div(int(mod(mana_pct; 10)); 10); 4))); "\n\n\n"));
+  repeat(concat(from_codepoint(7300); "\n\n\n"); int(min(10; div(sub(100.0; mana_pct); 10))))
 )); "tpack:default")}
