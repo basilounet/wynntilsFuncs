@@ -1,0 +1,5 @@
+{with_font(st(concat(
+    from_codepoint(7528);
+    repeat(from_codepoint(6956); 3);
+    from_codepoint(sub(7841; clamp(div(mana_pct; 1.88); 0; 52)))
+)); "tpack:default")}

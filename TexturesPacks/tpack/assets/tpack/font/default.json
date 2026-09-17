@@ -253,6 +253,54 @@
       "file": "tpack:font/rpg/anchors_left_ylw.png",
       "height": 127,
       "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u1dd1\u1dd2\u1dd3\u1dd4\u1dd5\u1dd6\u1dd7\u1dd8\u1dd9\u1dda\u1ddb\u1ddc\u1ddd",
+        "\u1dde\u1ddf\u1de0\u1de1\u1de2\u1de3\u1de4\u1de5\u1de6\u1de7\u1de8\u1de9\u1dea",
+        "\u1deb\u1dec\u1ded\u1dee\u1def\u1df0\u1df1\u1df2\u1df3\u1df4\u1df5\u1df6\u1df7",
+        "\u1df8\u1df9\u1dfa\u1dfb\u1dfc\u1dfd\u1dfe\u1dff\u1e00\u1e01\u1e02\u1e03\u1e04"  
+      ],
+      "file": "tpack:font/rpg/anchors_left_blue.png",
+      "height": 127,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u1e11\u1e10\u1e0f\u1e0e\u1e0d\u1e0c\u1e0b\u1e0a\u1e09\u1e08\u1e07\u1e06\u1e05",
+        "\u1e1e\u1e1d\u1e1c\u1e1b\u1e1a\u1e19\u1e18\u1e17\u1e16\u1e15\u1e14\u1e13\u1e12",
+        "\u1e2b\u1e2a\u1e29\u1e28\u1e27\u1e26\u1e25\u1e24\u1e23\u1e22\u1e21\u1e20\u1e1f",
+        "\u1e38\u1e37\u1e36\u1e35\u1e34\u1e33\u1e32\u1e31\u1e30\u1e2f\u1e2e\u1e2d\u1e2c"
+      ],
+      "file": "tpack:font/rpg/anchors_right_red.png",
+      "height": 127,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u1e45\u1e44\u1e43\u1e42\u1e41\u1e40\u1e3f\u1e3e\u1e3d\u1e3c\u1e3b\u1e3a\u1e39",
+        "\u1e52\u1e51\u1e50\u1e4f\u1e4e\u1e4d\u1e4c\u1e4b\u1e4a\u1e49\u1e48\u1e47\u1e46",
+        "\u1e5f\u1e5e\u1e5d\u1e5c\u1e5b\u1e5a\u1e59\u1e58\u1e57\u1e56\u1e55\u1e54\u1e53",
+        "\u1e6c\u1e6b\u1e6a\u1e69\u1e68\u1e67\u1e66\u1e65\u1e64\u1e63\u1e62\u1e61\u1e60"
+      ],
+      "file": "tpack:font/rpg/anchors_right_ylw.png",
+      "height": 127,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -15,
+      "chars": [
+        "\u1e79\u1e78\u1e77\u1e76\u1e75\u1e74\u1e73\u1e72\u1e71\u1e70\u1e6f\u1e6e\u1e6d",
+        "\u1e86\u1e85\u1e84\u1e83\u1e82\u1e81\u1e80\u1e7f\u1e7e\u1e7d\u1e7c\u1e7b\u1e7a",
+        "\u1e93\u1e92\u1e91\u1e90\u1e8f\u1e8e\u1e8d\u1e8c\u1e8b\u1e8a\u1e89\u1e88\u1e87",
+        "\u1ea0\u1e9f\u1e9e\u1e9d\u1e9c\u1e9b\u1e9a\u1e99\u1e98\u1e97\u1e96\u1e95\u1e94"
+      ],
+      "file": "tpack:font/rpg/anchors_right_blue.png",
+      "height": 127,
+      "type": "bitmap"
     }
   ]
 }
